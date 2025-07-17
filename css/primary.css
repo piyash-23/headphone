@@ -74,7 +74,7 @@ nav ul li button a:hover {
 }
 .hero {
   max-width: 1080px;
-  margin: 0 auto;
+  margin: auto auto;
 }
 .innerhero {
   position: relative;
