@@ -1,0 +1,40 @@
+@media screen and (max-width: 576px) {
+  .navsec {
+    flex-direction: column;
+  }
+  .reso {
+    position: static;
+    font-size: 3.75rem;
+    transform: translate(0);
+    margin-top: 50px;
+  }
+  .aura {
+    position: static;
+    font-size: 60px;
+    transform: translate(0);
+  }
+  .hero img {
+    position: static;
+    width: 100%;
+    transform: translate(0);
+  }
+  .innerhero {
+    text-align: center;
+  }
+}
+
+/* tablet */
+
+@media (min-width: 576px) and (max-width: 992px) {
+  .aura {
+    font-size: 110px;
+    transform: translate(10%, 140%);
+  }
+  .reso {
+    font-size: 110px;
+    transform: translate(10%, 60%);
+  }
+  .hero img {
+    width: 100%;
+  }
+}
