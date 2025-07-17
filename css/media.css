@@ -1,16 +1,20 @@
 @media screen and (max-width: 576px) {
-  .navsec {
-    flex-direction: column;
+  nav {
+    display: none;
+  }
+  .dropdown {
+    display: block;
+    cursor: pointer;
   }
   .reso {
     position: static;
     font-size: 3.75rem;
     transform: translate(0);
-    margin-top: 50px;
   }
   .aura {
     position: static;
     font-size: 60px;
+    margin-bottom: -50px;
     transform: translate(0);
   }
   .hero img {

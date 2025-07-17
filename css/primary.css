@@ -52,6 +52,7 @@ nav ul li a {
 nav ul li button {
   border: none;
   font-size: 1rem;
+  background: none;
 }
 nav ul li button a {
   background: linear-gradient(#000000, #8b8782);
@@ -62,6 +63,14 @@ nav ul li button a {
 nav ul li button a:hover {
   background: tomato;
   box-shadow: 0 0 10px #8b8782, inset 5px 5px 10px rgba(255, 255, 255, 0.288);
+}
+.dropdown {
+  display: none;
+}
+.bropbtn {
+  border: none;
+  background: transparent;
+  cursor: pointer;
 }
 .hero {
   max-width: 1080px;
