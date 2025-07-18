@@ -22,7 +22,7 @@
   }
   .hero img {
     position: static;
-    width: 100%;
+    width: 80%;
     transform: translate(0);
   }
   .innerhero {
@@ -33,7 +33,7 @@
     display: none;
   }
   .sec1 {
-    padding: 40px 0px;
+    padding: 100px 0px;
   }
 }
 
