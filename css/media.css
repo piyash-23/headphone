@@ -35,6 +35,9 @@
   .sec1 {
     padding: 100px 0px;
   }
+  .headtext h2 {
+    font-size: 30px;
+  }
 }
 
 /* tablet */
