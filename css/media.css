@@ -25,6 +25,13 @@
   .innerhero {
     text-align: center;
   }
+  .img-1,
+  .img-3 {
+    display: none;
+  }
+  .sec1 {
+    padding: 40px 0px;
+  }
 }
 
 /* tablet */
@@ -32,13 +39,16 @@
 @media (min-width: 576px) and (max-width: 992px) {
   .aura {
     font-size: 110px;
-    transform: translate(10%, 140%);
+    transform: translate(25%, 140%);
   }
   .reso {
     font-size: 110px;
-    transform: translate(10%, 60%);
+    transform: translate(25%, 60%);
   }
   .hero img {
-    width: 100%;
+    width: 70%;
+  }
+  .sec1 {
+    padding: 60px 0;
   }
 }
