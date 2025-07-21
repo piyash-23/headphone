@@ -159,3 +159,13 @@ main {
 .push3 {
   background: #a76662;
 }
+/* section 2 */
+.sec2 {
+  width: 1080px;
+  margin: 0 auto;
+}
+.inners2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
