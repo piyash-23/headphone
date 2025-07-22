@@ -38,17 +38,23 @@
   .headtext h2 {
     font-size: 30px;
   }
+  .sec2 {
+    width: 100%;
+  }
+  .inners2 {
+    flex-direction: column;
+  }
 }
 
 /* tablet */
 
 @media (min-width: 576px) and (max-width: 992px) {
   .aura {
-    font-size: 110px;
+    font-size: 90px;
     transform: translate(25%, 140%);
   }
   .reso {
-    font-size: 110px;
+    font-size: 90px;
     transform: translate(25%, 60%);
   }
   .hero img {
@@ -56,5 +62,8 @@
   }
   .sec1 {
     padding: 60px 0;
+  }
+  .sec2 {
+    width: 100%;
   }
 }

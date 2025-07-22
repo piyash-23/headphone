@@ -165,7 +165,22 @@ main {
   margin: 0 auto;
 }
 .inners2 {
+  background: linear-gradient(var(--para), var(--linear2));
+  border-radius: 1rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+.para_text {
+  text-align: center;
+  margin-top: 20px;
+}
+.para_text p {
+  color: #292828d0;
+  font-weight: 600;
+  font-size: 1.3rem;
+  padding: 20px 30px;
+}
+.rsite img {
+  width: 100%;
 }
