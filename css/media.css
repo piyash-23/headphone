@@ -44,6 +44,13 @@
   .inners2 {
     flex-direction: column;
   }
+  .sec_3 {
+    width: 100%;
+  }
+  .card_3 {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
 }
 
 /* tablet */
@@ -65,5 +72,11 @@
   }
   .sec2 {
     width: 100%;
+  }
+  .sec_3 {
+    width: 100%;
+  }
+  .card_3 {
+    grid-template-columns: repeat(2, 1fr);
   }
 }

@@ -8,7 +8,7 @@
 /* primary design */
 :root {
   --head: #52483e;
-  --linear1: #d2cdc6;
+  --linear1: #d2cdc6bb;
   --linear2: #f8bf93;
   --para: #8b8782;
 }
@@ -161,7 +161,7 @@ main {
 }
 /* section 2 */
 .sec2 {
-  width: 1080px;
+  width: 1280px;
   margin: 0 auto;
 }
 .inners2 {
@@ -183,4 +183,27 @@ main {
 }
 .rsite img {
   width: 100%;
+}
+/* section 3 */
+.sec_3 {
+  width: 1280px;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+.inners_3 {
+  text-align: center;
+}
+.head {
+  font-size: 3.5rem;
+  font-weight: 600;
+  color: var(--head);
+}
+.card_3 {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 20px;
+}
+.card img {
+  height: 336px;
 }
